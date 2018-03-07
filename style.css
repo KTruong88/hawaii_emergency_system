@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home {
+  align-self: center;
+}
+
+.select-alert {
+  border-radius: 8px;
+}
