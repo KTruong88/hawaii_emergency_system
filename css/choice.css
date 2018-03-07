@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+.choice-wrapper {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.choice-home {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.choice-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width: 800px;
+}
+
+.choice-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.not-selected {
+    font-family: tahoma;
+    color: black;
+}
+
+.select-txt {
+    font-family: tahoma;
+    color: rgb(240,0,10);
+}
+
+.tester {
+    display: flex;
+}
+
+.one {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.two {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.three {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-radius: 6px;
+}
+
+.number {
+    align-self: center;
+}
+
+.test-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.test-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.test-btn-icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.test-btn-img {
+    align-self: center;
+    margin-top: 10%;
+}
+
+.test-btn-txt {
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    font-family: tahoma;
+    align-self: center;
+}
+
+.realworld-btn {
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    flex-basis: 400px;
+    background-color: rgb(240,0,10);
+}
+
+
+.real-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.real-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(240,0,10);
+}
+
+.real-btn-icon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.real-btn-img {
+    align-self: center;
+    margin-top: 10%;
+}
+
+.real-btn-txt {
+    margin-top: 10%;
+    font-size: 30px;
+    text-align: center;
+    font-family: tahoma;
+    align-self: center;
+}
+
+.realworld-btn {
+    border-radius: 12px;
+    width: 400px;
+    height: 400px;
+    flex-basis: 400px;
+    background-color: rgb(240,0,10);
+}
