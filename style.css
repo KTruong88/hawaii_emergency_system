@@ -1,13 +1,44 @@
 .wrapper {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+
+.title {
+    align-self: center;
 }
 
 .home {
-  align-self: center;
+    align-self: center;
 }
 
-.select-alert {
-  border-radius: 8px;
+
+.select-alert-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: black;
+    height: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: red;
+}
+
+.select-alert-btn:hover {
+    cursor: pointer;
+}
+
+.alert-link {
+    text-decoration: none;
+}
+
+.alert-icon {
+    width: 10%;
+}
+
+.alert-select-txt {
+    margin-left: 12px;
+    align-self: center;
 }
