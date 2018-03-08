@@ -13,15 +13,6 @@
     justify-content: space-around;
 }
 
-.options {
-    align-self: center;
-    border: 1px solid black;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    height: 80px;
-    width: 800px;
-}
-
 .choice-nav-wrapper {
     display: flex;
     justify-content: center;
@@ -108,7 +99,7 @@
     margin-right: 5px;
     justify-content: center;
     color: white;
-    background-color: lightgray;
+    background-color: red;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -124,25 +115,122 @@
     justify-content: space-between;
 }
 
-.choice-link {
-    width: 800px;
+
+/**************/
+
+.title {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: arial;
     align-self: center;
-    color: inherit;
+    margin-top: 30px;
+}
+
+.postcard {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    align-self: center;
+    background-color: black;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.postcard-title {
+    font-family: arial;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.postcard-body {
+    font-family: arial;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: white;
+    /*letter-spacing: 2px;*/
+}
+
+.sure {
+    align-self: center;
+    font-family: arial;
+}
+
+.people {
+    font-weight: bold;
+    color: red;
+}
+
+.north {
+    color: black;
+}
+
+.alert-link {
+    align-self: center;
     text-decoration: none;
 }
 
-.alert-type {
-    /*margin-left: 80px;*/
-    margin-left: 10%;
-    align-self: center;
-    font-size: 25px;
-    font-family: arial;
+.alert-icon {
+    width: 10%;
 }
 
-.alert-location {
-    margin-right: 10%;
+.alert-select-txt {
+    margin-left: 12px;
     align-self: center;
-    color: red;
-    font-size: 25px;
-    font-family: arial;
+}
+
+.select-alert-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: black;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: rgb(240,0,10);
+}
+
+.select-alert-btn:hover {
+    cursor: pointer;
+}
+
+/*** back button ***/
+
+
+.back-alert-link {
+    margin-top: 30px;
+    align-self: center;
+    text-decoration: none;
+}
+
+.back-alert-icon {
+    width: 10%;
+}
+
+.back-alert-select-txt {
+    margin-left: 12px;
+    align-self: center;
+}
+
+.back-select-alert-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    color: black;
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: white;
+}
+
+.back-select-alert-btn:hover {
+    cursor: pointer;
 }
