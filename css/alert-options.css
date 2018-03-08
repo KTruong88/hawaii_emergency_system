@@ -1,0 +1,141 @@
+.options-wrapper{
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+}
+
+.options-nav-wrapper {
+    display: flex;
+    align-self: center;
+    height: 100px;
+    width: 800px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.options {
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    height: 80px;
+    width: 800px;
+}
+
+.choice-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100px;
+    width: 800px;
+}
+
+@media all and (max-width: 800px) {
+
+    .options-nav-wrapper {
+        max-width: 700px;
+    }
+
+    .options {
+        max-width: 700px;
+    }
+
+    .alert-type {
+        font-size: 20px !important;
+    }
+
+    .alert-location {
+        font-size: 20px !important;
+    }
+}
+
+@media all and (max-width: 700px) {
+
+    .options-nav-wrapper{
+        max-width: 500px;
+    }
+
+    .alert-location {
+        margin-right: 5% !important;
+    }
+
+    .options {
+        max-width: 500px;
+    }
+}
+
+.not-selected {
+    font-family: tahoma;
+    color: black;
+    align-self: center;
+}
+
+.select-txt {
+    font-family: tahoma;
+    color: rgb(240,0,10);
+    align-self: center;
+}
+
+.tester {
+    display: flex;
+    align-self: center;
+}
+
+.one {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.two {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.three {
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    color: white;
+    background-color: lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-radius: 6px;
+}
+
+.number {
+    align-self: center;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-type {
+    /*margin-left: 80px;*/
+    margin-left: 10%;
+    align-self: center;
+    font-size: 25px;
+    font-family: arial;
+}
+
+.alert-location {
+    margin-right: 10%;
+    align-self: center;
+    color: red;
+    font-size: 25px;
+    font-family: arial;
+}

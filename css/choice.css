@@ -27,9 +27,25 @@
 
 .choice-nav {
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    width: 1300px;
+    flex: 1;
+    justify-content: space-between;
 }
+
+@media all and (max-width: 800px) {
+
+  .choice-nav {
+      max-width: 700px;
+  }
+}
+
+@media all and (max-width: 700px) {
+
+  .choice-nav {
+      max-width: 500px;
+  }
+}
+
 
 .not-selected {
     font-family: tahoma;
@@ -93,8 +109,8 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 12px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: lightgray;
 }
 
@@ -116,15 +132,6 @@
     align-self: center;
 }
 
-.realworld-btn {
-    border-radius: 12px;
-    width: 400px;
-    height: 400px;
-    flex-basis: 400px;
-    background-color: rgb(240,0,10);
-}
-
-
 .real-link {
     text-decoration: none;
     color: inherit;
@@ -135,8 +142,8 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 12px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: rgb(240,0,10);
 }
 
